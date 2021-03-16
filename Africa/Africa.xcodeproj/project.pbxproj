@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121DB7722600EC3400AB56D0 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121DB7712600EC3400AB56D0 /* CoverImageView.swift */; };
 		1227E8AB25FF5C7900A30EED /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1227E8AA25FF5C7900A30EED /* AfricaApp.swift */; };
 		1227E8AD25FF5C7900A30EED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1227E8AC25FF5C7900A30EED /* ContentView.swift */; };
 		1227E8AF25FF5C7A00A30EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1227E8AE25FF5C7A00A30EED /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		121DB7712600EC3400AB56D0 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		1227E8A725FF5C7900A30EED /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1227E8AA25FF5C7900A30EED /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		1227E8AC25FF5C7900A30EED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		121DB7702600EB3500AB56D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				121DB7712600EC3400AB56D0 /* CoverImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1227E89E25FF5C7800A30EED = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 		1227E8A925FF5C7900A30EED /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				121DB7702600EB3500AB56D0 /* View */,
 				1227E8D025FF608B00A30EED /* Data */,
 				1227E8BA25FF603B00A30EED /* Video */,
 				1227E8DA25FF622C00A30EED /* App */,
@@ -232,6 +243,7 @@
 			files = (
 				1227E8AD25FF5C7900A30EED /* ContentView.swift in Sources */,
 				1227E8E625FF62B400A30EED /* MainView.swift in Sources */,
+				121DB7722600EC3400AB56D0 /* CoverImageView.swift in Sources */,
 				1227E8E025FF629A00A30EED /* MapView.swift in Sources */,
 				1227E8AB25FF5C7900A30EED /* AfricaApp.swift in Sources */,
 				1227E8DD25FF628700A30EED /* VideoListView.swift in Sources */,
